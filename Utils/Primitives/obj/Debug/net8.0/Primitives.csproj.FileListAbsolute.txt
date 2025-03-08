@@ -1,0 +1,13 @@
+C:\gitlab.com\microservices\delivery\Utils\Primitives\bin\Debug\net8.0\Primitives.deps.json
+C:\gitlab.com\microservices\delivery\Utils\Primitives\bin\Debug\net8.0\Primitives.dll
+C:\gitlab.com\microservices\delivery\Utils\Primitives\bin\Debug\net8.0\Primitives.pdb
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.csproj.AssemblyReference.cache
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.GeneratedMSBuildEditorConfig.editorconfig
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.AssemblyInfoInputs.cache
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.AssemblyInfo.cs
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.csproj.CoreCompileInputs.cache
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.sourcelink.json
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.dll
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\refint\Primitives.dll
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.pdb
+C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\ref\Primitives.dll

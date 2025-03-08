@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\otus\\BookingBooks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\domain\\model\\bookinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\domain\\model\\bookinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|c:\\otus\\bookingbooks\\reservationbooks.api\\controllers\\bookreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|solutionrelative:reservationbooks.api\\controllers\\bookreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|c:\\otus\\bookingbooks\\reservationbooks.api\\reservationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|solutionrelative:reservationbooks.api\\reservationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\domain\\model\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\domain\\model\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\domain\\model\\bookinstancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\domain\\model\\bookinstancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\domain\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\domain\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|c:\\otus\\bookingbooks\\utils\\primitives\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|solutionrelative:utils\\primitives\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|c:\\otus\\bookingbooks\\utils\\primitives\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|solutionrelative:utils\\primitives\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}|ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj|c:\\otus\\bookingbooks\\reservationbooks.infrastructure\\adapters\\postgres\\postgresdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}|ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj|solutionrelative:reservationbooks.infrastructure\\adapters\\postgres\\postgresdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}|ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj|c:\\otus\\bookingbooks\\reservationbooks.infrastructure\\reservationbooks.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}|ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj|solutionrelative:reservationbooks.infrastructure\\reservationbooks.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\application\\usecases\\reserve\\reservebookinstancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\application\\usecases\\reserve\\reservebookinstancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\application\\usecases\\reserve\\reservebookinstancecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\application\\usecases\\reserve\\reservebookinstancecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\application\\usecases\\expirereservations\\expirereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\application\\usecases\\expirereservations\\expirereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|c:\\otus\\bookingbooks\\reservationbooks.core\\application\\usecases\\expirereservations\\expirereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}|ReservationBooks.Core\\ReservationBooks.Core.csproj|solutionrelative:reservationbooks.core\\application\\usecases\\expirereservations\\expirereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|c:\\otus\\bookingbooks\\utils\\primitives\\genaralerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}|Utils\\Primitives\\Primitives.csproj|solutionrelative:utils\\primitives\\genaralerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|c:\\otus\\bookingbooks\\reservationbooks.api\\reservationbooks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D91DDE55-A337-49C5-8013-D8204F945375}|ReservationBooks.Api\\ReservationBooks.Api.csproj|solutionrelative:reservationbooks.api\\reservationbooks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\Member.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Domain\\Model\\Member.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\Member.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Domain\\Model\\Member.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:35:09.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookInstanceStatus.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\BookInstanceStatus.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Domain\\Model\\BookInstanceStatus.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\BookInstanceStatus.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Domain\\Model\\BookInstanceStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:58:49.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookReservationController.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\Controllers\\BookReservationController.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Api\\Controllers\\BookReservationController.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\Controllers\\BookReservationController.cs",
+              "RelativeToolTip": "ReservationBooks.Api\\Controllers\\BookReservationController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:46:52.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookInstance.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\BookInstance.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Domain\\Model\\BookInstance.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\BookInstance.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Domain\\Model\\BookInstance.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:48:16.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\Reservation.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Domain\\Model\\Reservation.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Domain\\Model\\Reservation.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Domain\\Model\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:56:47.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\Utils\\Primitives\\Error.cs",
+              "RelativeDocumentMoniker": "Utils\\Primitives\\Error.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\Utils\\Primitives\\Error.cs",
+              "RelativeToolTip": "Utils\\Primitives\\Error.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:50:04.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationModel.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\ReservationModel.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Api\\ReservationModel.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\ReservationModel.cs",
+              "RelativeToolTip": "ReservationBooks.Api\\ReservationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:46:31.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostgresDbContext.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Infrastructure\\Adapters\\Postgres\\PostgresDbContext.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Infrastructure\\Adapters\\Postgres\\PostgresDbContext.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Infrastructure\\Adapters\\Postgres\\PostgresDbContext.cs",
+              "RelativeToolTip": "ReservationBooks.Infrastructure\\Adapters\\Postgres\\PostgresDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:44:02.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationBooks.Infrastructure",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj",
+              "RelativeToolTip": "ReservationBooks.Infrastructure\\ReservationBooks.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T10:43:37.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Aggregate.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\Utils\\Primitives\\Aggregate.cs",
+              "RelativeDocumentMoniker": "Utils\\Primitives\\Aggregate.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\Utils\\Primitives\\Aggregate.cs",
+              "RelativeToolTip": "Utils\\Primitives\\Aggregate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:48:23.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpireReservationHandler.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationHandler.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationHandler.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationHandler.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:32:51.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExpireReservationCommand.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationCommand.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationCommand.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationCommand.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Application\\UseCases\\ExpireReservations\\ExpireReservationCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:32:25.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReserveBookInstanceHandler.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceHandler.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceHandler.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceHandler.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:27:34.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReserveBookInstanceCommand.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceCommand.cs",
+              "RelativeDocumentMoniker": "ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceCommand.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceCommand.cs",
+              "RelativeToolTip": "ReservationBooks.Core\\Application\\UseCases\\Reserve\\ReserveBookInstanceCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T09:27:25.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenaralErrors.cs",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\Utils\\Primitives\\GenaralErrors.cs",
+              "RelativeDocumentMoniker": "Utils\\Primitives\\GenaralErrors.cs",
+              "ToolTip": "C:\\otus\\BookingBooks\\Utils\\Primitives\\GenaralErrors.cs",
+              "RelativeToolTip": "Utils\\Primitives\\GenaralErrors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:48:56.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservationBooks.Api",
+              "DocumentMoniker": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\ReservationBooks.Api.csproj",
+              "RelativeDocumentMoniker": "ReservationBooks.Api\\ReservationBooks.Api.csproj",
+              "ToolTip": "C:\\otus\\BookingBooks\\ReservationBooks.Api\\ReservationBooks.Api.csproj",
+              "RelativeToolTip": "ReservationBooks.Api\\ReservationBooks.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T07:26:21.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
