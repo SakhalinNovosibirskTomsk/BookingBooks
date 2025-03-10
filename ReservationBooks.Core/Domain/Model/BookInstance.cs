@@ -12,24 +12,23 @@ namespace ReservationBooks.Core.Domain.Model
     /// </summary>
     public class BookInstance: Aggregate<int>
     {
-        public BookInstance Create(int id, int bookId, string inventoryNumber)
+        public BookInstance Create(int id, int bookId, InventoryNumber inventoryNumber)
         {
-            throw new NotImplementedException();
+            return new BookInstance(id, bookId, inventoryNumber);
         }
 
-        private BookInstance(int id, int bookId, string inventoryNumber)
+        private BookInstance(int id, int bookId, InventoryNumber inventoryNumber)
         {
             Id = id;
             BookId = bookId;
             InventoryNumber = inventoryNumber;
-
+            Reservations = new List<Reservation>();
         }
 
         /// <summary>
         /// Инвентарный номер Экземпляра Книги.
         /// </summary>
-        public string InventoryNumber { get; } // 
-
+        public InventoryNumber InventoryNumber { get; }
 
         /// <summary>
         /// Илентификатор Книги.
@@ -41,6 +40,10 @@ namespace ReservationBooks.Core.Domain.Model
         /// </summary>
         public BookInstanceStatus Status { get; private set; }
 
+        /// <summary>
+        /// Список бронирований Экземпляра Книги.
+        /// </summary>
+        public IReadOnlyList<Reservation> Reservations { get; }
 
         /// <summary>
         /// Reserves the book for the specified user 
@@ -49,6 +52,7 @@ namespace ReservationBooks.Core.Domain.Model
         {
             // 0. Проверить, можно ли зарезервировать книгу вообще и для данного читателя в частности.
             // 1. Создать объект Reservation, добавить в коллекцию.
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -59,8 +63,6 @@ namespace ReservationBooks.Core.Domain.Model
             // 1. Найти актуальны объект Reservation.
             // 2. Отменить его.
         }
-
-        public IReadOnlyList<Reservation> Reservations { get; }
 
         /// <summary>
         /// 

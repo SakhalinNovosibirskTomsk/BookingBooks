@@ -11,3 +11,16 @@ C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitive
 C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\refint\Primitives.dll
 C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\Primitives.pdb
 C:\gitlab.com\microservices\delivery\Utils\Primitives\obj\Debug\net8.0\ref\Primitives.dll
+C:\otus\BookingBooks\Utils\Primitives\bin\Debug\net8.0\Primitives.deps.json
+C:\otus\BookingBooks\Utils\Primitives\bin\Debug\net8.0\Primitives.dll
+C:\otus\BookingBooks\Utils\Primitives\bin\Debug\net8.0\Primitives.pdb
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.csproj.AssemblyReference.cache
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.GeneratedMSBuildEditorConfig.editorconfig
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.AssemblyInfoInputs.cache
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.AssemblyInfo.cs
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.csproj.CoreCompileInputs.cache
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.sourcelink.json
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.dll
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\refint\Primitives.dll
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\Primitives.pdb
+C:\otus\BookingBooks\Utils\Primitives\obj\Debug\net8.0\ref\Primitives.dll
