@@ -1,4 +1,2 @@
-﻿
-dotnet ef migrations add Init --startup-project PromoCodeFactory.WebHost/PromoCodeFactory.WebHost.csproj --project PromoCodeFactory.DataAccess/PromoCodeFactory.DataAccess.csproj --context EfContext
-
+dotnet ef migrations add Init --startup-project ReservationBooks.Api/ReservationBooks.Api.csproj --project ReservationBooks.Infrastructure/ReservationBooks.Infrastructure.csproj --context MssqlDbContext
 PAUSE

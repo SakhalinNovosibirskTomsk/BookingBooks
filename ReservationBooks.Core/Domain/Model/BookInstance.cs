@@ -17,6 +17,9 @@ namespace ReservationBooks.Core.Domain.Model
             return new BookInstance(id, bookId, inventoryNumber);
         }
 
+        private BookInstance()
+        { }
+
         private BookInstance(int id, int bookId, InventoryNumber inventoryNumber)
         {
             Id = id;

@@ -17,6 +17,9 @@ namespace ReservationBooks.Core.Domain.Model
             return new Reservation(member, reservationDate, endReservationDatePlan, true);
         }
 
+        private Reservation()
+        { }
+
         private Reservation(Member member, DateTime reservationDate, DateTime? endReservationDatePlan, bool isActive)
         {
             Member = member;

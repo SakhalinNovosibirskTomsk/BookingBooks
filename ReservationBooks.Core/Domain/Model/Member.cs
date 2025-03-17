@@ -13,6 +13,8 @@ namespace ReservationBooks.Core.Domain.Model
             return new Member(id, name);
         }
 
+        private Member()
+        { }
         private Member(int id, string name) 
         { 
             Id = id;

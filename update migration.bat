@@ -1,0 +1,2 @@
+dotnet ef database update --startup-project ReservationBooks.Api/ReservationBooks.Api.csproj --project ReservationBooks.Infrastructure/ReservationBooks.Infrastructure.csproj --context MssqlDbContext
+PAUSE

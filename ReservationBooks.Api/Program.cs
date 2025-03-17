@@ -1,4 +1,8 @@
 
+using Microsoft.EntityFrameworkCore;
+using ReservationBooks.Infrastructure.Adapters.Mssql;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+
 namespace ReservationBooks.Api
 {
     public class Program
@@ -13,6 +17,13 @@ namespace ReservationBooks.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            string? connection = builder.Configuration.GetConnectionString("Mssql");
+
+
+            builder.Services.AddDbContext<MssqlDbContext>(options => options.UseSqlServer(connection));
+
+  
 
             var app = builder.Build();
 
