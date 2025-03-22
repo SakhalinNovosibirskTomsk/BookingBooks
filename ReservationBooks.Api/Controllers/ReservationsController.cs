@@ -1,4 +1,9 @@
+using MediatR;
+
 using Microsoft.AspNetCore.Mvc;
+
+using ReservationBooks.Core.Application.UseCases.Commands.Reserve;
+using ReservationBooks.Core.Application.UseCases.Exceptions;
 
 namespace ReservationBooks.Api.Controllers
 {
@@ -7,9 +12,13 @@ namespace ReservationBooks.Api.Controllers
     public class ReservationsController : ControllerBase
     {
         private readonly ILogger<ReservationsController> _logger;
+        private readonly IMediator _mediator;
 
-        public ReservationsController(ILogger<ReservationsController> logger)
+        public ReservationsController(
+            IMediator mediator,
+            ILogger<ReservationsController> logger)
         {
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
             _logger = logger;
         }
 
@@ -42,12 +51,28 @@ namespace ReservationBooks.Api.Controllers
             throw new NotImplementedException();
         }
 
-        //[ApiExplorerSettings(IgnoreApi = true)]
-        //[HttpPost]
-        //public IAsyncResult ReserveBookInstance(int bookInstanceId, int userId)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        [HttpPost]
+        public async Task<IActionResult> ReserveBookInstance(int bookInstanceId, int memberId)
+        {
+            ReserveBookInstanceCommand cmd = new ReserveBookInstanceCommand(bookInstanceId, memberId);
+            try
+            {
+                bool result = await _mediator.Send(cmd);
+                if (result)
+                    return Ok();
+
+                return Conflict();
+
+
+            }
+            catch (ReservationBookApplicationBaseException e)
+            {
+                _logger.LogError(e, "TODO Error");
+                return BadRequest(e.Message);
+            }
+            
+
+        }
 
         //[ApiExplorerSettings(IgnoreApi = true)]
         //[HttpPost]

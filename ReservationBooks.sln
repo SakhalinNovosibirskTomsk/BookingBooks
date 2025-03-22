@@ -5,15 +5,19 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationBooks.Core", "ReservationBooks.Core\ReservationBooks.Core.csproj", "{57C59F9F-0BB5-4EFA-BF49-E10E52F98657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationBooks.Api", "ReservationBooks.Api\ReservationBooks.Api.csproj", "{D91DDE55-A337-49C5-8013-D8204F945375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationBooks.Api", "ReservationBooks.Api\ReservationBooks.Api.csproj", "{D91DDE55-A337-49C5-8013-D8204F945375}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{40FD0BB5-73F4-4874-B0C9-5C2927EA9DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationBooks.Infrastructure", "ReservationBooks.Infrastructure\ReservationBooks.Infrastructure.csproj", "{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationBooks.Infrastructure", "ReservationBooks.Infrastructure\ReservationBooks.Infrastructure.csproj", "{E009F0F6-BDC2-4C16-AE50-BBF998D0D11A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{28584954-DEDC-4807-AB23-1DA2212EDB5D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primitives", "Utils\Primitives\Primitives.csproj", "{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationBooks.UnitTests", "ReservationBooks.UnitTests\ReservationBooks.UnitTests.csproj", "{581E3BE5-C556-429D-B2A5-0929C7B7C124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationBooks.IntegrationTests", "ReservationBooks.IntegrationTests\ReservationBooks.IntegrationTests.csproj", "{9B109C10-3992-42FF-BFFB-79E5C4E01F93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,12 +41,22 @@ Global
 		{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581E3BE5-C556-429D-B2A5-0929C7B7C124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581E3BE5-C556-429D-B2A5-0929C7B7C124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581E3BE5-C556-429D-B2A5-0929C7B7C124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581E3BE5-C556-429D-B2A5-0929C7B7C124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B109C10-3992-42FF-BFFB-79E5C4E01F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B109C10-3992-42FF-BFFB-79E5C4E01F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B109C10-3992-42FF-BFFB-79E5C4E01F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B109C10-3992-42FF-BFFB-79E5C4E01F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0DD81D0D-8D52-48E1-A5B2-7F8E69F73659} = {28584954-DEDC-4807-AB23-1DA2212EDB5D}
+		{581E3BE5-C556-429D-B2A5-0929C7B7C124} = {40FD0BB5-73F4-4874-B0C9-5C2927EA9DAF}
+		{9B109C10-3992-42FF-BFFB-79E5C4E01F93} = {40FD0BB5-73F4-4874-B0C9-5C2927EA9DAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B0AE554-26CD-4B68-AAE1-CFE18D469C0E}

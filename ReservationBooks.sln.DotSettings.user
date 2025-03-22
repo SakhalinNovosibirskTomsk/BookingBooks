@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9f401ad9_002Df195_002D4c6e_002Db1fc_002Db5bd70df3f45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReservationPlanDateShouldBeEndDayOfNextDay" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests.ReservationPlanDateShouldBeEndDayOfNextDay&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests.ReservedBookInstanceCannotBeReservedAgain&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9B109C10-3992-42FF-BFFB-79E5C4E01F93::net8.0::ReservationBooks.IntegrationTests.BookInstanceTests.ReservationTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9B109C10-3992-42FF-BFFB-79E5C4E01F93::net8.0::ReservationBooks.IntegrationTests.BookInstanceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ee94c231_002D09f5_002D430e_002Db071_002D0b75d0b12a68/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReservedBookInstanceCannotBeReservedAgain" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests.ReservedBookInstanceCannotBeReservedAgain&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9B109C10-3992-42FF-BFFB-79E5C4E01F93::net8.0::ReservationBooks.IntegrationTests.BookInstanceTests.ReservationTest2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

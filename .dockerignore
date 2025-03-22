@@ -34,3 +34,12 @@ README.md
 ./ReservationBooks.Core/obj
 ./ReservationBooks.Infrastructure/bin
 ./ReservationBooks.Infrastructure/obj
+./ReservationBooks.UnitTests/bin
+./ReservationBooks.UnitTests/obj
+./ReservationBooks.IntegrationTests/bin
+./ReservationBooks.IntegrationTests/obj
+./ReservationBooks.Api/bin
+./ReservationBooks.Api/obj
+.vs
+./Utils/Primitives/bin
+./Utils/Primitives/obj

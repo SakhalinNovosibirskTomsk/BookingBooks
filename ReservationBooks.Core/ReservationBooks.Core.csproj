@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Application\UseCases\Facts\" />
-    <Folder Include="Application\Queries\GetUserReservations\" />
-    <Folder Include="Application\Queries\GetBookReservation\" />
-    <Folder Include="Application\UseCases\CancelReservation\" />
-    <Folder Include="Application\UseCases\Facts\Return\" />
-    <Folder Include="Application\UseCases\Facts\WriteOff\" />
-    <Folder Include="Application\UseCases\Facts\CheckOut\" />
-    <Folder Include="Application\UseCases\Facts\Receipt\" />
+    <Folder Include="Application\UseCases\Commands\Facts\" />
+    <Folder Include="Application\UseCases\Queries\GetUserReservations\" />
+    <Folder Include="Application\UseCases\Queries\GetBookReservation\" />
+    <Folder Include="Application\UseCases\Commands\CancelReservation\" />
+    <Folder Include="Application\UseCases\Commands\Facts\Return\" />
+    <Folder Include="Application\UseCases\Commands\Facts\WriteOff\" />
+    <Folder Include="Application\UseCases\Commands\Facts\CheckOut\" />
+    <Folder Include="Application\UseCases\Commands\Facts\Receipt\" />
   </ItemGroup>
 
   <ItemGroup>
