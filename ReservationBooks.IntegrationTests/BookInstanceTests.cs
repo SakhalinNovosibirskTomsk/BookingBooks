@@ -44,7 +44,7 @@ namespace ReservationBooks.IntegrationTests
 
             BookInstanceRepository repository = new BookInstanceRepository(context);
 
-            BookInstance? bi = await repository.GetById(2);
+            BookInstance? bi = await repository.GetById(1);
 
             var member = context.Members.First();
 

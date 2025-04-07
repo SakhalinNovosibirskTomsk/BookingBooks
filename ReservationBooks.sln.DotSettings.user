@@ -12,5 +12,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests.ReservedBookInstanceCannotBeReservedAgain&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::9B109C10-3992-42FF-BFFB-79E5C4E01F93::net8.0::ReservationBooks.IntegrationTests.BookInstanceTests.ReservationTest2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::581E3BE5-C556-429D-B2A5-0929C7B7C124::net8.0::ReservationBooks.UnitTests.BookInstanceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9B109C10-3992-42FF-BFFB-79E5C4E01F93::net8.0::ReservationBooks.IntegrationTests.BookInstanceTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -27,8 +27,6 @@ namespace ReservationBooks.Core.Domain.Model
             BookId = bookId;
             InventoryNumber = inventoryNumber;
             Status = status;
-            
-            Reservations = new List<Reservation>();
         }
 
         /// <summary>
@@ -46,12 +44,13 @@ namespace ReservationBooks.Core.Domain.Model
         /// </summary>
         public BookInstanceStatus Status { get; private set; }
 
-        
+
         /// <summary>
         /// Список бронирований Экземпляра Книги.
         /// </summary>
-        public ICollection<Reservation> Reservations { get; }
+        public IReadOnlyCollection<Reservation> Reservations => _reservations.AsReadOnly();
 
+        private readonly IList<Reservation> _reservations = new List<Reservation>();
 
         /// <summary>
         /// Reserves the book for the specified user 
@@ -80,12 +79,12 @@ namespace ReservationBooks.Core.Domain.Model
             //    #БЛ: "Плановая дата окончания бронирования конец следующего дня (в 18:00)". 
             var endReservationDatePlan = DateTime.Today.AddDays(1).AddHours(18);
 
-            var reservation = Reservation.Create(member, startReservation, endReservationDatePlan);
+            Result<Reservation, Error> reservation = Reservation.Create(member, startReservation, endReservationDatePlan);
 
             if (reservation.IsFailure)
                 return reservation.Error;
 
-            Reservations.Add(reservation.Value);
+            _reservations.Add(reservation.Value);
             
             return reservation;
         }
